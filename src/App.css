@@ -36,6 +36,53 @@
     transform: rotate(360deg);
   }
 }
+/* Responsive styling for the certificates container */
+.cert-col {
+  margin-bottom: 20px; /* Spacing between rows */
+}
+
+/* Styling for images */
+.image-container {
+  position: relative;
+  overflow: hidden; /* Ensures the gradient doesn't spill outside the image */
+  border-radius: 10px; /* Rounded corners */
+}
+
+.cert-image {
+  width: 100%;
+  height: auto;
+  display: block; /* Removes any extra space beneath the image */
+  transition: transform 0.3s ease; /* Optional: adds a zoom effect on hover */
+}
+
+.image-container:hover .cert-image {
+  transform: scale(1.1); /* Optional: adds a zoom effect on hover */
+}
+
+.title-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(to top, rgba(51, 31, 51, 0.85), rgba(0,0,0,0));
+  color: rgb(255, 255, 255);
+  padding: 20px;
+  text-align: center;
+}
+
+/* Media queries... */
 
 
+/* Media queries for different screen sizes */
+@media (max-width: 768px) {
+  .cert-image {
+    max-width: 80%; /* Smaller size on tablets */
+    margin: 0 auto; /* Center in column */
+  }
+}
 
+@media (max-width: 576px) {
+  .cert-image {
+    max-width: 100%; /* Full width on mobile */
+  }
+}

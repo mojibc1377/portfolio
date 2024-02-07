@@ -2,10 +2,10 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
+  AiFillPhone,
+  AiFillMail,
   AiFillInstagram,
 } from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
 
 function Footer() {
   let date = new Date();
@@ -17,13 +17,13 @@ function Footer() {
           
         </Col>
         <Col md="4" className="footer-copywright">
-          <h3>Copyright © {year} Sukrut Rahane</h3>
+          <h3>Copyright © {year} MBC</h3>
         </Col>
         <Col md="4" className="footer-body">
           <ul className="footer-icons">
             <li className="social-icons">
               <a
-                href="https://github.com/sukrutrahane"
+                  href="https://https://github.com/mojibc1377"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
@@ -32,35 +32,35 @@ function Footer() {
               </a>
             </li>
             <li className="social-icons">
-              <a
-                href="https://twitter.com/sukrutrahane"
-                style={{ color: "white" }}
+                <a
+                  href="tel:+905451350980"
+                  style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
-              >
-                <AiOutlineTwitter />
-              </a>
-            </li>
-            <li className="social-icons">
-              <a
-                href="https://www.linkedin.com/in/sukrutrahane/"
-                style={{ color: "white" }}
+                >
+                  <AiFillPhone />
+                </a>
+              </li>
+              <li className="social-icons">
+                <a
+                  href="mailto:mojtaba.bagherich@gmail.com?body=My custom mail body"
+                  style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
-              >
-                <FaLinkedinIn />
-              </a>
-            </li>
-            <li className="social-icons">
-              <a
-                href="https://www.instagram.com/sukrutrahane"
-                style={{ color: "white" }}
+                >
+                  <AiFillMail />
+                </a>
+              </li>
+              <li className="social-icons">
+                <a
+                  href="https://www.instagram.com/bagheric.mojtaba"
+                  style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
-              >
-                <AiFillInstagram />
-              </a>
-            </li>
+                >
+                  <AiFillInstagram />
+                </a>
+              </li>
           </ul>
         </Col>
       </Row>

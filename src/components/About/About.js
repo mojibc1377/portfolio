@@ -3,8 +3,9 @@ import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
 import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
-import laptopImg from "../../Assets/sukrut_square.jpg";
+import laptopImg from "../../Assets/IMG_2353.JPG";
 import Tilt from "react-parallax-tilt";
+import Certificates from "./certificates";
 
 function About() {
   return (
@@ -21,7 +22,7 @@ function About() {
             }}
           >
             <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
-              Know Who <strong className="purple">I'M</strong>
+              Know Who <strong className="purple">I AM</strong>
             </h1>
             <Aboutcard />
           </Col>
@@ -48,6 +49,11 @@ function About() {
         </h1>
 
         <Techstack />
+        <h1 className="project-heading">
+          Badges & <strong className="purple">Certificates </strong>
+        </h1>
+        <Certificates/>
+
 
       </Container>
     </Container>

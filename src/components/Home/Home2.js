@@ -4,10 +4,10 @@ import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
+  AiFillPhone,
+  AiFillMail,
   AiFillInstagram,
 } from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
 
 function Home2() {
   return (
@@ -21,7 +21,7 @@ function Home2() {
             <p className="home-about-body">
               I am fluent in classics like
               <i>
-                <b className="purple"> C++ and Python. </b>
+                <b className="purple"> React, Python. </b>
               </i>
               <br />
               <br />
@@ -46,7 +46,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/sukrutrahane"
+                  href="https://github.com/mojibc1377"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -56,27 +56,27 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/sukrutrahane"
+                  href="tel:+981333772924"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
                 >
-                  <AiOutlineTwitter />
+                  <AiFillPhone />
                 </a>
               </li>
               <li className="social-icons">
-                <a
-                  href="https://www.linkedin.com/in/sukrutrahane/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <FaLinkedinIn />
-                </a>
+              <a
+  href="mailto:mojtaba.bagherich@gmail.com?body=My custom mail body"
+  target="_blank"
+  rel="noreferrer"
+  className="icon-colour  home-social-icons"
+>
+  <AiFillMail />
+</a>
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/sukkkrut"
+                  href="https://www.instagram.com/bagheric.mojtaba"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"

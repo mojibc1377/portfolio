@@ -7,11 +7,13 @@ import {
   DiNodejs,
   DiPython,
   DiGit,
-  DiJava,
 } from "react-icons/di";
+import { TbSql } from "react-icons/tb";
+
 
 function Techstack() {
   return (
+    <>
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
         <CgCPlusPlus />
@@ -20,7 +22,7 @@ function Techstack() {
         <DiPython />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiJava />
+        <TbSql />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiJavascript1 />
@@ -39,6 +41,8 @@ function Techstack() {
       
       
     </Row>
+
+    </>
   );
 }
 
