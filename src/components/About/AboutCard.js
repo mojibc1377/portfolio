@@ -11,8 +11,9 @@ function AboutCard() {
             Hi Everyone, I am <span className="purple">Mojtaba Bagheri Chenari </span>
             from <span className="purple"> Tehran, Iran</span>
             <br /> Experienced Software Developer with 8+ years of expertise in developing high-performance applications.
-            <br/> Skilled in full-stack development, databases, and software design.<br/>
-Aspiring full stack web developer leveraging a foundation in React.js and embarking on an exciting jourcy to master Node.js.<br/>
+            <br/> 
+Skilled in full-stack development, databases, and software design.<br/>
+Aspiring full stack web developer leveraging a foundation in React.js and embarking on an exciting journy to master Node.js.<br/>
 With a background in data science using Python, I offer a unique blend of analytical and creative thinking.<br/>
 Formerly a skilled bartender for 3 years, I thrive in fast-paced, client-focused environments.<br/>
 Languages:
@@ -27,7 +28,7 @@ Languages:
             Some of my hobbies are 
           </p>
           <ul>
-            <li className="about-activity">
+            <li className="about-activity flex flex-row">
               <ImPointRight /> Playing Video Games
             </li>
             <li className="about-activity">

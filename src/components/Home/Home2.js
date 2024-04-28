@@ -21,7 +21,7 @@ function Home2() {
             <p className="home-about-body">
               I am fluent in classics like
               <i>
-                <b className="purple"> React, Python. </b>
+                <b className="purple"> Reactjs, Nextjs, Python. </b>
               </i>
               <br />
               <br />
@@ -56,7 +56,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="tel:+981333772924"
+                  href="tel:+901350980"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
