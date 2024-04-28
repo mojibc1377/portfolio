@@ -10,7 +10,8 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Mojtaba Bagheri Chenari </span>
             from <span className="purple"> Tehran, Iran</span>
-            <br /> Experienced Software Developer with 8+ years of expertise in developing high-performance applications.
+            <br /> 
+            Experienced Software Developer with 8+ years of expertise in developing high-performance applications.
             <br/> 
 Skilled in full-stack development, databases, and software design.<br/>
 Aspiring full stack web developer leveraging a foundation in React.js and embarking on an exciting journy to master Node.js.<br/>
