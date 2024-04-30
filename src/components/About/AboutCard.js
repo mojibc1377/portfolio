@@ -13,8 +13,8 @@ function AboutCard() {
             Experienced Software developer with 5+ years of expertise in developing high-performance applications.
             <br/> 
 Skilled in full-stack development, Databases and Software design. <br/>
-Aspiring full stack developer levraging a foundation in Reactjs and Nodejs and also embarking on an exciting journy to master Nextjs <br/>
-with a background in data science using Python , I offer a uniqe blend of analytical and creative thinking . <br/>
+Aspiring full stack developer leveraging a foundation in Reactjs and Nodejs and also embarking on an exciting journy to master Nextjs. <br/>
+with a background in data science using Python , I offer a unique blend of analytical and creative thinking . <br/>
 Formerly a skilled bartender for 3 years , I thrive in fast-paced client-focused environments. <br/>
 <br/>
 Languages : 
