@@ -23,14 +23,22 @@
 .cert-col {
   margin-bottom: 20px; /* Spacing between rows */
 }
-
+.activity{
+  margin-top: 20px;
+}
+.about-activity{
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
 /* Styling for images */
 .image-container {
   position: relative;
   overflow: hidden; /* Ensures the gradient doesn't spill outside the image */
   border-radius: 10px; /* Rounded corners */
 }
-
+.blockquote{
+  text-align: left;
+}
 .cert-image {
   width: 100%;
   height: auto;
