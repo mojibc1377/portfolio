@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
 import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
-import laptopImg from "../../Assets/IMG_2353.JPG";
+import laptopImg from "../../Assets/IMG_8609.JPG";
 import Tilt from "react-parallax-tilt";
 import Certificates from "./certificates";
 
