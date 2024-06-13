@@ -4,6 +4,10 @@ import { Row, Col } from "react-bootstrap";
 function Certificates() {
   const certificates = [
     {
+      title: "What is Data Science?",
+      image: "/What is Data Science.png"
+    },
+    {
       title: "Data Science Methodology",
       image: "/Data Science Methodology.png" // replace with your image path
     },
@@ -16,12 +20,15 @@ function Certificates() {
       image: "/Databases and SQL for Data Science with Python.png"
     },
     {
-      title: "What is Data Science?",
-      image: "/What is Data Science.png"
-    },
-    {
       title: "Python for Data Science AI & Development",
       image: "/Python for Data Science, AI & Development.png"
+    }
+    ,{
+      title: "Python Project for Data Science",
+      image: "/Python Project for Data Science.jpg"
+    },{
+      title: "Data Analysis with Python",
+      image: "/Data Analysis with Python.jpg"
     }
   ];
 
