@@ -3,18 +3,9 @@ import { Row, Col } from "react-bootstrap";
 
 function Certificates() {
   const certificates = [
-    {
-      title: "What is Data Science?",
-      image: "/What is Data Science.png"
-    },
-    {
-      title: "Data Science Methodology",
-      image: "/Data Science Methodology.png" // replace with your image path
-    },
-    {
-      title: "Tools for Data Science",
-      image: "/Tools for Data Science.png"
-    },
+    
+    
+    
     {
       title: "Databases and SQL for Data Science with Python",
       image: "/Databases and SQL for Data Science with Python.png"
@@ -29,7 +20,19 @@ function Certificates() {
     },{
       title: "Data Analysis with Python",
       image: "/Data Analysis with Python.jpg"
-    }
+    },{
+      title: "Data Visualization with Python",
+      image: "/Coursera FHLB6WVNS6KW.jpg"
+    },{
+      title: "What is Data Science?",
+      image: "/What is Data Science.png"
+    },{
+      title: "Data Science Methodology",
+      image: "/Data Science Methodology.png" // replace with your image path
+    },{
+      title: "Tools for Data Science",
+      image: "/Tools for Data Science.png"
+    },
   ];
 
   return (
