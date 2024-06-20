@@ -540,7 +540,15 @@ button:focus {
   overflow: hidden !important;
   box-shadow: 0 4px 4px 5px rgba(129, 72, 144, 0.561) !important;
 }
-
+.card-buttons{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.image-card{
+  max-height: 314px;
+}
 .blog-card {
   padding-top: 50px !important;
   padding-bottom: 50px !important;
@@ -548,7 +556,12 @@ button:focus {
   padding-right: 25px !important;
   height: auto !important;
 }
-
+.card-body{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: space-between;
+}
 .blog-card-view {
   background-color: transparent !important;
   box-shadow: 0 3px 3px 2px rgba(145, 77, 161, 0.459) !important;
@@ -611,6 +624,7 @@ button:focus {
   position: relative !important;
   padding-top: 110px !important;
   padding-bottom: 30px !important;
+  padding-inline: 30px;
   background-image: var(--section-background-color) !important;
   color: white !important;
 }
@@ -618,6 +632,7 @@ button:focus {
 .resume {
   padding-top: 50px;
   padding-bottom: 50px;
+  padding-inline: 30px;
   justify-content: center;
 }
 

@@ -9,7 +9,7 @@ import nist from "../../Assets/nist.jpeg";
 import afk from "../../Assets/antiafk.jpg";
 import qa from "../../Assets/qa.jpeg";
 import gameworld from "../../Assets/gameworld.jpg";
-import leaf from "../../Assets/project/placeholder.png";
+import coffee from "../../Assets/coffee.jpeg";
 
 
 
@@ -59,7 +59,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCards
-              imgPath={leaf}
+              imgPath={coffee}
               isBlog={false}
               title="Mobile QR code menu Càfe Flow"
               description="A web-app providing an interactive mobile QR code menu for a cafe, enabling customers to easily view and choose menu items directly from their smartphones. The app ensures a seamless and contactless dining experience."
