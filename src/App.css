@@ -18,6 +18,7 @@
   justify-content: center;
   align-items: center;
   gap: 10px;
+  margin-right: 20px;
 }
 /* Responsive styling for the certificates container */
 .cert-col {

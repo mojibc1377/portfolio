@@ -56,7 +56,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="tel:+901350980"
+                  href="tel:+905411610756"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"

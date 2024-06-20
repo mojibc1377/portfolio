@@ -23,7 +23,7 @@ function Footer() {
           <ul className="footer-icons">
             <li className="social-icons">
               <a
-                  href="https://https://github.com/mojibc1377"
+                  href="https://www.github.com/mojibc1377"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
@@ -33,7 +33,7 @@ function Footer() {
             </li>
             <li className="social-icons">
                 <a
-                  href="tel:+905451350980"
+                  href="tel:+905411610756"
                   style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
