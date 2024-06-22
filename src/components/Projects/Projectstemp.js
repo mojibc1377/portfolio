@@ -34,7 +34,7 @@ function Projects() {
               isBlog={false}
               title="Deep Learning COVID-19 Diagnosis"
               description="This project focuses on developing a deep learning model to detect COVID-19 from chest X-ray images. The objective is to create a robust neural network capable of accurately classifying images into COVID-19 positive and negative categories. This project leverages convolutional neural networks (CNNs) for image classification tasks, aiming for high accuracy and reliability.              "
-              ghLink="https://github.com/mojibc1377/Neural-Network-Based-COVID-19-Detection-NN-COVID-Det-"
+              ghLink="https://github.com/mojibc1377/Deep-Learning-COVID-19-Diagnosis"
             />
           </Col>
 
