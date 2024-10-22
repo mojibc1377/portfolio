@@ -33,7 +33,7 @@ function Footer() {
             </li>
             <li className="social-icons">
                 <a
-                  href="tel:+905411610756"
+                  href="tel:+989332239077"
                   style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"

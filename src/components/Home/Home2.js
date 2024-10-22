@@ -28,7 +28,7 @@ function Home2() {
               I debug more than I code.
               <br />
               <br />
-              My pronouns are <i><b>Jack of All Trades / Master of none</b></i>
+              My pronouns are <i><b>Jack of All Trades / Master of All</b></i>
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -56,7 +56,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="tel:+905411610756"
+                  href="tel:+989332239077"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
