@@ -16,9 +16,14 @@ function ResumeNew() {
   }, []);
 
   return (
-    <div>
+    <div className="min-h-screen">
       <Container fluid className="resume-section">
         <Particle />
+        <Row className="resume">
+          <Document file={pdf} className="d-flex justify-content-center">
+          &gt; <Page pageNumber={1} scale={width > 786 ? 1.2 : 0.4} />
+          </Document>
+        </Row>
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
             variant="primary"
@@ -31,12 +36,6 @@ function ResumeNew() {
             &nbsp;Download CV
             </div>
           </Button>
-        </Row>
-
-        <Row className="resume">
-          <Document file={pdf} className="d-flex justify-content-center">
-          &gt; <Page pageNumber={1} scale={width > 786 ? 1.2 : 0.4} />
-          </Document>
         </Row>
         </Container>
 

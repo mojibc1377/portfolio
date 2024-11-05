@@ -627,6 +627,7 @@ button:focus {
   padding-inline: 30px;
   background-image: var(--section-background-color) !important;
   color: white !important;
+  min-height: 100vh;
 }
 
 .resume {
