@@ -20,9 +20,9 @@ Formerly a skilled bartender for 3 years , I thrive in fast-paced client-focused
 Languages : 
 
 <ul className="activity">
-  <li className="about-activity flex flex-row">Persian : Mother Language</li>
-  <li className="about-activity flex flex-row">English : IELTS total 7</li>
-  <li className="about-activity flex flex-row">German : B2</li>
+  <li className="about-activity flex flex-row">Persian : Bilingual, Native</li>
+  <li className="about-activity flex flex-row">English : C1 </li>
+  <li className="about-activity flex flex-row">German : B2 </li>
 </ul>
             <br />
             <br />
